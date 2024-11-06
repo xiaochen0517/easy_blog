@@ -1,0 +1,7 @@
+version: "3"
+services:
+  web:
+    build: .
+    image: easy_blog:latest
+    ports:
+      - "8080:80"
